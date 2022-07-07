@@ -1,0 +1,11 @@
+[package]
+name = "mini-ssh"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ssh2 = {version = "0.9"}
+clap = "3.2"
+openssl-probe = "0.1.5"
